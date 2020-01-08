@@ -1,0 +1,19 @@
+Keep a journal of what worked, what didn’t, what you had to install, issues you ran into, how you fixed those issues, and what you might do differently now that you have more experience.
+Include the links to the public GitHub repo and the deployed site in your journal.
+
+1/8/2020
+Starting off with my project, I created a new repo for this project, cs465-project-1. I initialized the repo with a README.md and downloaded a Markdown extension so that I could see what my README.md would look like. In my README.md, I copied the major important things from the requirements so that I could refer to what I needed.
+
+Once I was finished with my README.md, I went ahead and found a Bootstrap portfolio template I liked, https://html5up.net/miniport. With what I have thus far, I have the basics of a good start. Now I'm writing this journal to think about what I plan on doing next.
+
+Time to brainstorm the 3 major requirements:
+ - an about section or page, with information about myself
+    - Hi, my name is Larry Chiem. I am a Computer Science undergraduate at Portland State University, class of 2020. I am a software engineer intern at Intel and specialize more towards development (web and android development). I am also a decent D.I.Y. auto mechanic! Aside from my work, when I play, I like to read, ride my motorcycle, play sports (volleyball, basketball, tennis, dance, mixed-martial arts, snowboard, and more), work on personal android apps, travel, and hanging out with friends doing what we do best - wrecking havoc.
+ - a projects section or page, with projects I have previously worked on
+    - NASA Hackathon - Android App
+    - Intel projects (CONFIDENTIAL)
+    - Tri-met Phone App
+    - Pictures of me working on cars
+    - Traveling photos?
+ - a contact section or page, with the layout contact form (it is not required that you implement the functionality)
+    - This is already done in the bootstrap portfolio I picked out.
