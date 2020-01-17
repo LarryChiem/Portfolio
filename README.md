@@ -19,11 +19,13 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
-make install
-npm test
+git clone https://github.com/Chiemychanga/cs465-project-1
+cd cs465-project-1
+which npm
+npm install -g live-server
+live-server
 ```
 
 ## Meta
