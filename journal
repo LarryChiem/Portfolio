@@ -43,13 +43,17 @@ The NodeJS live-server package runs a temporary server displaying any HTML/CSS/J
 Now that I have live-server running as per instructions above:
 
  [ x ] I want to test that a change in the index.html will reflect automatically.
- [   ] Change the existing text content to get a rough idea of what I'm looking to have on my portfolio page
-        [  ] an about me;
-        [  ] a projects section or page;
-        [  ] a contact section or page
+ [ x ] an about me;
+ [ x ] a projects section or page;
+ [ x ] a contact section or page
 
 
 1/16/2020
-I am picking a color theme using a Batman theme since I like Batman and everyone does.
+I went into my personal projects, used QuickTime Player's screen recording to record some footage of my apps running.
+I then used https://ezgif.com/video-to-gif to transform the video to gif format to be used as animated pictures on my portfolio gallery.
+I was struggling at one point in trying to get all of the images for the projects to the same size, so I just set the width of the img tags
+to a specific pixel and was happy with the results...until I added a bigger picture and then the width was bigger (the snake game picture). I'm
+not sure what to do here yet.
+
 
 
