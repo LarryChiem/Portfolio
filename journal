@@ -5,11 +5,6 @@ Include the links to the public GitHub repo and the deployed site in your journa
 1/8/2020
 Starting off with my project, I created a new repo for this project, cs465-project-1. I initialized the repo with a README.md and downloaded a Markdown extension so that I could see what my README.md would look like. In my README.md, I copied the major important things from the requirements so that I could refer to what I needed.
 
-Once I was finished with my README.md, I went ahead and found a Bootstrap portfolio template I liked:
-    https://html5up.net/parallelism
-
-
-
 With what I have thus far, I have the basics of a good start. Now I'm writing this journal to think about what I plan on doing next.
 
 Time to brainstorm the 3 major requirements:
@@ -20,9 +15,8 @@ Time to brainstorm the 3 major requirements:
     - Intel projects (CONFIDENTIAL)
     - Tri-met Phone App
     - Pictures of me working on cars
-    - Traveling photos?
  3. a contact section or page, with the layout contact form (it is not required that you implement the functionality)
-    - This is already done in the bootstrap portfolio I picked out.
+    - This is already done from the homework assignment 1.
 
 -------------------------------------------------------------------------------------
 To automatically reload the page in my browser when any of these files change, I need to install Node.js live-server.
@@ -53,5 +47,9 @@ Now that I have live-server running as per instructions above:
         [  ] an about me;
         [  ] a projects section or page;
         [  ] a contact section or page
+
+
+1/16/2020
+I am picking a color theme using a Batman theme since I like Batman and everyone does.
 
 
