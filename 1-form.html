@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Contact Form</title>
+</head>
+<body>
+<!-- add your code below -->
+<form>
+    <fieldset>
+        <legend>Contact Form</legend>
+        <br>
+        Name: <input type="text" name="fullname"><br>
+        Email: <input type="text" name="email"><br><br>
+        <div>
+            <input type="radio" id="undergrad" name="education_level" value="undergraduate" checked>
+            <label for="undergrad">Undergraduate</label>
+        </div>
+        <div>
+            <input type="radio" id="grad" name="education_level" value="graduate">
+            <label for="grad">Graduate</label>
+        </div>
+        <div>
+            <input type="radio" id="other" name="education_level" value="other">
+            <label for="other">Other</label>
+            <br><br>
+        </div>
+        <div>
+            Comment
+            <br>
+            <textarea name="comment"></textarea>
+            <br>
+            <br>
+        </div>
+        <button name="submit">Submit</button>
+        <button name="reset">Reset</button>
+    </fieldset>
+</form>
+</body>
+</html>
