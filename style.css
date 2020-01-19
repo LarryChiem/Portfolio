@@ -9,21 +9,67 @@ header {
     text-align: center;
     padding: 20px 0 10px;
 }
-/*https://www.color-hex.com/color-palette/18718*/
+
 h1 {
     text-transform: uppercase;
 }
 
-.topnav {
-    padding: 20px;
+/*END OF https://codepen.io/jstn/pen/zuDst*/
+ul.topnav {
+    margin: 10px auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 600px;
+    text-align: center;
+}
+.topnav>li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
 }
 
-.topnav a {
-    color: #FFFFFF;
-    padding-left: 20px;
-    font-style: italic;
+a {
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+a:hover {
+    opacity: 50%;
+}
+
+a:active {
+    opacity: 30%;
+}
+
+li>a {
+    color: #fff;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+.topnav a:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.topnav>li>a:hover:after {
+    width: 100%;
+    left: 0;
+}
+@media screen and (max-height: 300px) {
+    ul.topnav {
+        margin-top: 40px;
+    }
+}
+/*END OF https://codepen.io/jstn/pen/zuDst*/
 
 .btn-rounded-black{
     display:inline-block;
@@ -32,12 +78,15 @@ h1 {
     padding:15px 25px;
     border:3px solid #FFFFFF;
     border-radius:30px;
-    transition:.5s ease all}
+    transition:.5s ease all
+}
 
-.btn-rounded-white:hover {
-    color: #040707;
-    background-color:#F8EF1D;
-    text-decoration:none;
+.btn-rounded-black:hover {
+    /*opacity: 50%;*/
+}
+
+.btn-rounded-black:active {
+    /*opacity: 20%;*/
 }
 
 .project {

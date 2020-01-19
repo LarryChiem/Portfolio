@@ -55,5 +55,7 @@ I was struggling at one point in trying to get all of the images for the project
 to a specific pixel and was happy with the results...until I added a bigger picture and then the width was bigger (the snake game picture). I'm
 not sure what to do here yet.
 
-
+1/18/2020
+I want the UX of any clickable buttons to be noticably clickable...So today I played with the :hover and :active and :visited css styling attributes on anchor tags
+to really highlight the UX of what is clickable and what is not.
 
