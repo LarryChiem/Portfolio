@@ -3,6 +3,9 @@ body {
 }
 
 header {
+    background-image: url("./images/tokyo_ghoul.jpg");
+    background-size: cover;
+    background-position: center;
     background-color: #7F8086;
     color: #FFFFFF;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -10,10 +13,34 @@ header {
     padding: 20px 0 10px;
 }
 
-h1 {
+/*sourced from https://www.youtube.com/watch?v=Syg_9iB1vco*/
+.my_name {
     text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size:60px;
+    animation: text 3s 1;
 }
 
+.my_title {
+    font-size: 30px;
+}
+
+@keyframes text {
+    0%{
+       color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+
+}
+/* end of source https://www.youtube.com/watch?v=Syg_9iB1vco*/
 /*END OF https://codepen.io/jstn/pen/zuDst*/
 ul.topnav {
     margin: 10px auto 0;
@@ -87,6 +114,10 @@ li>a {
 
 .btn-rounded-black:active {
     /*opacity: 20%;*/
+}
+
+#mywork {
+    background-color: lightgray;
 }
 
 .project {
