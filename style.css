@@ -1,15 +1,22 @@
 body {
-    font-size: 20px;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     background-image: url("./images/tokyo_ghoul.jpg");
     background-size: cover;
     background-position: center;
     background-color: #7F8086;
     color: #FFFFFF;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: center;
+    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
     padding: 20px 0 10px;
 }
 
@@ -17,12 +24,12 @@ header {
 .my_name {
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size:60px;
+    font-size: 4vw;
     animation: text 3s 1;
 }
 
 .my_title {
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 @keyframes text {
@@ -43,12 +50,12 @@ header {
 /* end of source https://www.youtube.com/watch?v=Syg_9iB1vco*/
 /*END OF https://codepen.io/jstn/pen/zuDst*/
 ul.topnav {
-    margin: 10px auto 0;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
     display: table;
-    width: 600px;
     text-align: center;
+    font-size: 2vw;
 }
 .topnav>li {
     display: table-cell;
@@ -99,13 +106,13 @@ li>a {
 /*END OF https://codepen.io/jstn/pen/zuDst*/
 
 .btn-rounded-black{
-    display:inline-block;
     background-color: #080808;
     color: #FFFFFF;
     padding:15px 25px;
     border:3px solid #FFFFFF;
+    margin: .50vh;
     border-radius:30px;
-    transition:.5s ease all
+    transition:.5s ease all;
 }
 
 .btn-rounded-black:hover {
@@ -117,29 +124,48 @@ li>a {
 }
 
 #mywork {
-    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 0;
 }
 
 .project {
     border: 1px solid black;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 1vw;
+    padding: 2vw;
     background-size: cover;
 }
 
 .project img {
     float:  left;
-    height: 480px;
+    width: 20vw;
     padding: 30px;
-    background-size: cover;
+}
+
+#snakepic {
+    width: 30vw;
+}
+
+.project-buttons {
+    width: 100%;
+    margin-top: auto;
 }
 
 .button {
-    background-color: #8B0000;
+    background-color: cadetblue;
     color: #FFFFFF;
-    padding: 8px;
+    padding: 6px;
     border-radius: 6px;
     border: none;
     text-decoration: none;
@@ -150,8 +176,10 @@ li>a {
 }
 
 h3 {
-    word-wrap: break-word;
+    margin: 0;
 }
 
-#about {
+h2 {
+    margin-top: 5px;
 }
+
