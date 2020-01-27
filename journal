@@ -59,3 +59,29 @@ not sure what to do here yet.
 I want the UX of any clickable buttons to be noticably clickable...So today I played with the :hover and :active and :visited css styling attributes on anchor tags
 to really highlight the UX of what is clickable and what is not.
 
+I then started adding links to my accounts, such as:
+    - a link to my Gmail that would open up a new email template via Gmail to my Gmail.
+    - a link to my GitHub account
+    - a link to my LinkedIn
+
+1/22
+I added a background image to my header and was having a difficult time getting the background image to be responsive and to fill up the
+full width of the header. Also, the content in the header, like my <ul class="topnav"> wasn't exactly centered as I'd like. I couldn't figure out
+what to do with this because text-align: center wouldn't do the job. Actually, the whole website wasn't responsive and was not centered.
+
+At this time, I needed to consider how to make everything more centered especially how to make it responsive and streamline. It needed
+to be easy on the eyes when looking on the Desktop and also when looking on a smartphone.
+
+1/25
+In order to make things responsive/fluid, I began researching about CSS3 flexbox and began applying it to my project.
+It was a little difficult to understand, but now that I do, next time when I start working on a project from fresh,
+I definitely need to start with responsiveness in mind. A first question would be do I want my website to be mobile-responsive first or
+desktop-responsive first. Everyone uses their phones now to look at websites, plus it's a lot easier to be mobile-first and then
+style the page for desktop as it is much more complex to style from desktop to mobile.
+
+
+1/27
+Viewing my website on mobile for some reason does not show everything width wise, so I have to zoom out and then it looked fine.
+So I'm going to start over on my styling and focus on making it mobile-first friendly.
+
+https://internetingishard.com/html-and-css/responsive-design/

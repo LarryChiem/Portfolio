@@ -190,10 +190,24 @@ and (max-device-width : 480px) {
     body {
         font-size: 28px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./images/tokyo_ghoul.jpg");
+        background-size: cover;
+        background-position: center;
+        background-color: #7F8086;
+        color: #FFFFFF;
+        text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+        padding: 20px 0 10px;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
