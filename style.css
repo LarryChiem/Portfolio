@@ -1,5 +1,5 @@
 body {
-    font-size: 1.5vw;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -24,12 +24,12 @@ header {
 .my_name {
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 4vw;
+    font-size: 42px;
     animation: text 3s 1;
 }
 
 .my_title {
-    font-size: 3vw;
+    font-size: 32px;
 }
 
 @keyframes text {
@@ -55,7 +55,7 @@ ul.topnav {
     list-style: none;
     display: table;
     text-align: center;
-    font-size: 2vw;
+    font-size: 28px;
 }
 .topnav>li {
     display: table-cell;
@@ -115,19 +115,13 @@ li>a {
     transition:.5s ease all;
 }
 
-.btn-rounded-black:hover {
-    /*opacity: 50%;*/
-}
-
-.btn-rounded-black:active {
-    /*opacity: 20%;*/
-}
-
 #mywork {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
 }
+
 .projects {
     display:flex;
     flex-direction: row;
@@ -139,6 +133,7 @@ li>a {
 .project {
     border: 1px solid black;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -149,17 +144,21 @@ li>a {
 
 .project img {
     float:  left;
-    width: 20vw;
+    padding: 30px;
+    flex: 1;
+}
+
+.project img.big_photo {
+    float:  left;
+    flex: 1;
+    align-items: center;
     padding: 30px;
 }
 
-#snakepic {
-    width: 30vw;
-}
-
 .project-buttons {
-    width: 100%;
+    flex: 1;
     margin-top: auto;
+    margin-bottom: 10px;
 }
 
 .button {
@@ -183,3 +182,28 @@ h2 {
     margin-top: 5px;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* Styles */
+    body {
+        font-size: 28px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    /* Styles */
+}
