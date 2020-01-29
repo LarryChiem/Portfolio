@@ -25,7 +25,7 @@ a:active {
 }
 
 .section {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center; /* This will make the width of the elements in the .header fit just the content vs 100%*/
@@ -46,8 +46,6 @@ header {
 /* mywork  */
 #mywork {
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 #mywork h2 {
@@ -136,10 +134,9 @@ ul.topnav {
     position: absolute;
     background: #fff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
 }
 .topnav>li>a:hover:after {
-    width: 100%;
+    width: auto;
     left: 0;
 }
 /*END OF https://codepen.io/jstn/pen/zuDst*/
