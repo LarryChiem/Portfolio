@@ -19,7 +19,7 @@ a:active {
 
 .page {
     /*font-size: 18px;*/
-    font-size: 3vw;
+    font-size: 4vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
