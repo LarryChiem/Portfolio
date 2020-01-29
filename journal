@@ -82,6 +82,27 @@ style the page for desktop as it is much more complex to style from desktop to m
 
 1/27
 Viewing my website on mobile for some reason does not show everything width wise, so I have to zoom out and then it looked fine.
-So I'm going to start over on my styling and focus on making it mobile-first friendly.
+So I'm going to start over on my styling and focus on making it mobile-first friendly using @media.
 
-https://internetingishard.com/html-and-css/responsive-design/
+I studied responsiveness using: https://internetingishard.com/html-and-css/responsive-design/
+
+1/28
+I spent all night trying to figure out what was wrong with my website. I tried changing my <meta> tag from:
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+to
+ <meta name="viewport" content="width=1000">
+
+ and this seemed to work, great. Apparently my content width just needed to be allocated big enough to fit what was on the content.
+
+Then I experienced some more UI/UX issues I wanted to address:
+    - My <h2> tag for my "mywork" section was shown on the side of my portfolio images.
+        - I fixed this by turning the div containing my work portfolio to  display: flex and having it flex-direction: column instead of row.
+        - I have a lot of nested flex containers so I do not know if this is good or not.
+    - Upon viewing the website on mobile, my text for some elements were gigantic or too small to read, and I experienced the same problem on Desktop.
+        - I needed to have the text size adjust based off @media size...
+        - I changed the font-size from px to vw.
+    - Due to some of the padding or margins that was in pixels, mobile and desktop looked funny. Certain spots had too much weird spacing, like empty spaces and stuff.
+        - So I converted a lot of it from pixels to vw.
+    - Updating my GitHub to a more professional name, Chiemychanga to LarryChiem
+
+1/29
