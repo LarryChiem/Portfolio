@@ -44,12 +44,8 @@ header {
 }
 
 /* mywork  */
-#mywork {
+.section.mywork {
     flex-direction: column;
-}
-
-#mywork h2 {
-    flex: 1;
 }
 
 .projects {
@@ -64,6 +60,17 @@ header {
 /* about  */
 .about {
     flex-direction: column;
+}
+
+.media_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.media_links a {
+    margin: 10px;
 }
 
 .contact {
