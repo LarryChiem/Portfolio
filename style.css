@@ -18,7 +18,8 @@ a:active {
 }
 
 .page {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -40,7 +41,8 @@ header {
     background-color: #7F8086;
     color: #FFFFFF;
     text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-    padding: 20px 0 10px;
+    /*padding: 20px 0 10px;*/
+    padding: 1vw 0 .5vw;
 }
 
 /* mywork  */
@@ -85,14 +87,18 @@ header {
 /*sourced from https://www.youtube.com/watch?v=Syg_9iB1vco*/
 .my_name {
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 42px;
+    /*letter-spacing: 4px;*/
+    letter-spacing: 1vw;
+    /*font-size: 42px;*/
+    font-size: 8vw;
     animation: text 3s 1;
 }
 
 .my_title {
-    font-size: 32px;
-    margin-bottom: 20px;
+    /*font-size: 32px;*/
+    font-size: 6vw;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 4vw;
 }
 
 @keyframes text {
@@ -117,19 +123,22 @@ ul.topnav {
     list-style: none;
     display: table;
     text-align: center;
-    font-size: 28px;
+    font-size: 5.5vw;
+    /*font-size: 28px;*/
 }
 .topnav>li {
     display: table-cell;
     position: relative;
-    padding: 15px 0;
+    /*padding: 15px 0;*/
+    padding: 2.25vw 0;
 }
 
 .topnav>li>a {
     color: #fff;
     letter-spacing: 0.15em;
     display: inline-block;
-    padding: 15px 20px;
+    /*padding: 15px 20px;*/
+    padding: 2.25vw 2.5vw;
     position: relative;
 }
 .topnav a:after {
@@ -174,15 +183,9 @@ ul.topnav {
 
 .project img {
     float:  left;
-    padding: 30px;
+    /*padding: 30px;*/
+    padding: 5.75vw;
     flex: 1;
-}
-
-.project img.big_photo {
-    float:  left;
-    flex: 1;
-    align-items: center;
-    padding: 30px;
 }
 
 .project-buttons {
@@ -209,27 +212,27 @@ ul.topnav {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
     /* Styles */
-    body {
-        font-size: 28px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    /*body {*/
+    /*    font-size: 28px;*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 
-    header {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        background-image: url("./images/tokyo_ghoul.jpg");
-        background-size: cover;
-        background-position: center;
-        background-color: #7F8086;
-        color: #FFFFFF;
-        text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-        padding: 20px 0 10px;
-    }
+    /*header {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    flex-wrap: wrap;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
+    /*    background-image: url("./images/tokyo_ghoul.jpg");*/
+    /*    background-size: cover;*/
+    /*    background-position: center;*/
+    /*    background-color: #7F8086;*/
+    /*    color: #FFFFFF;*/
+    /*    text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;*/
+    /*    padding: 20px 0 10px;*/
+    /*}*/
 }
 
 /* Smartphones (landscape) ----------- */
