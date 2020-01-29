@@ -66,6 +66,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;/* Vertical */
     margin: auto 0;
 }
 
@@ -73,15 +74,16 @@ header {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;/* Vertical */
     text-align: center;
+    justify-items: center; /* Horizontal */
     margin: 1vw;
     padding: 2vw;
     background-size: cover;
     float:  left;
 }
 
-.big_photo {
+.illustration img {
     max-width: 500px;
 }
 
