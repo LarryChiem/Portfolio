@@ -131,24 +131,18 @@ fieldset {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    /*justify-content: center;*/
-
 }
 
 /*sourced from https://www.youtube.com/watch?v=Syg_9iB1vco*/
 .my_name {
     text-transform: uppercase;
-    /*letter-spacing: 4px;*/
     letter-spacing: 1vw;
-    /*font-size: 42px;*/
     font-size: 8vw;
     animation: text 3s 1;
 }
 
 .my_title {
-    /*font-size: 32px;*/
     font-size: 6vw;
-    /*margin-bottom: 20px;*/
     margin-bottom: 4vw;
 }
 
@@ -218,21 +212,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     header {
-        padding: 1vw 0 0vw 0;
+        padding: 1vw 0 0 0;
     }
     .my_name {
         text-transform: uppercase;
-        /*letter-spacing: 4px;*/
         letter-spacing: .5vw;
-        /*font-size: 42px;*/
         font-size: 4vw;
         animation: text 3s 1;
     }
 
     .my_title {
-        /*font-size: 32px;*/
         font-size: 3vw;
-        /*margin-bottom: 20px;*/
         margin-bottom: 2vw;
     }
 
@@ -257,7 +247,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .project img {
         float:  left;
-        /*padding: 30px;*/
         padding: 2vw;
         flex: 1;
     }
