@@ -104,5 +104,12 @@ Then I experienced some more UI/UX issues I wanted to address:
     - Due to some of the padding or margins that was in pixels, mobile and desktop looked funny. Certain spots had too much weird spacing, like empty spaces and stuff.
         - So I converted a lot of it from pixels to vw.
     - Updating my GitHub to a more professional name, Chiemychanga to LarryChiem
+    - One of my calls to an element with double classes in my style.css was not actually working.
+        - Here's what I learned how you were supposed to do it:
+        - <h1 class="three four">Double Class</h1>
+        - .three.four { color: red; }
+            - How I did it wrong was .three .four I believe...Or that I only called .four and it was being overridden by .three
+
+
 
 1/29
