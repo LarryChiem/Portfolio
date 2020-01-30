@@ -81,6 +81,7 @@ header {
     padding: 2vw;
     background-size: cover;
     float:  left;
+    border-radius: 10px;
 }
 
 .illustration img {
@@ -122,8 +123,17 @@ header {
     margin: 10px;
 }
 
-fieldset {
-    padding: 1vw 1vw 1vw 1vw;
+.section.contact {
+    flex-direction: column;
+    width: 85%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    align-items: center;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000000b3;
 }
 
 .footer {
@@ -207,13 +217,13 @@ and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1) {
     /* For desktop: */
     * {
-        /*font-size: 18px;*/
-        font-size: 1.75vw;
+        font-size: 3vw;
     }
 
     header {
         padding: 1vw 0 0 0;
     }
+
     .my_name {
         text-transform: uppercase;
         letter-spacing: .5vw;

@@ -88,24 +88,27 @@
     </div> <!-- /about -->
 
     <!-- /contact -->
-    <form class="section contact" id="contact">
-        <fieldset>
-            <legend>Contact Form</legend>
-            <br>
-            Name: <input type="text" name="fullname"><br>
-            Email: <input type="text" name="email"><br>
-            Phone Number (Optional): <input type="text" name="phone"><br><br>
-            <div>
-                Message
-                <br>
-                <textarea name="message"></textarea>
-                <br>
-                <br>
-            </div>
-            <button name="submit">Submit</button>
-            <button name="reset">Reset</button>
-        </fieldset>
-    </form>
+    <div class="section contact" id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-input">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" value="" placeholder="Enter Your Name">
+        </div>
+        <div class="contact-input">
+            <label for="email">Email</label>
+            <input type="text" name="email" value="" placeholder="Enter Your Email">
+        </div>
+        <div class="contact-input">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" value="" placeholder="Enter Your Phone Number">
+        </div>
+        <div class="contact-input">
+            <label for="message"></label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <button name="submit">Submit</button>
+        <button name="reset">Reset</button>
+    </div>
     <footer class="section footer">
         <p>Larry Chiem - <a href="tel:503-929-2929">503-929-2929</a></p>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=larrypchiem@gmail.com">larrypchiem@gmail.com</a>
