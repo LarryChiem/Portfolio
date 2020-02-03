@@ -118,3 +118,6 @@ Spent most of my time dinking around with the different sizes of the fonts in mo
 1/31
 For the contact form, I used this as a reference:
 https://www.youtube.com/watch?v=f0DcnrpeBv8
+
+2/2
+I added border around the images and changed padding to the .illustration class.

@@ -300,9 +300,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
         padding: 1vw;
     }
 
+    .illustration {
+        padding-bottom: 1vh;
+    }
+
     .project img {
         float:  left;
-        padding: 2vw;
+        padding: 1px;
         flex: 1;
+        border:1px solid #021a40;
+        background-color:#ff0;
     }
 }
