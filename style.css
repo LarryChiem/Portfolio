@@ -115,6 +115,11 @@ header {
 /* about  */
 .about {
     flex-direction: column;
+    margin: 0 10%;
+}
+
+.about p {
+    align-self: flex-start;
 }
 
 .media_links {
