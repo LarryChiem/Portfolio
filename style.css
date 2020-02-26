@@ -240,7 +240,6 @@ ul.topnav {
 .topnav>li {
     display: table-cell;
     position: relative;
-    padding: 2.25vw 0;
 }
 
 .topnav>li>a {
