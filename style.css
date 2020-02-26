@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 5vw;
+}
+
+body {
+    font-size: 16px;
 }
 
 a {
@@ -50,8 +53,7 @@ header {
 .btn-rounded-black{
     background-color: #080808;
     color: #FFFFFF;
-    font-size: 4vw;
-    padding: 1vw 2vw;
+    padding:.5vw 1vw;
     border:3px solid #FFFFFF;
     margin: .25vh;
     border-radius:30px;
@@ -133,7 +135,7 @@ header {
     margin: 10px;
 }
 .media_links a i {
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 .section.contact {
@@ -200,13 +202,13 @@ header {
 /*sourced from https://www.youtube.com/watch?v=Syg_9iB1vco*/
 .my_name {
     text-transform: uppercase;
-    letter-spacing: 1vw;
-    font-size: 8vw;
+    letter-spacing: .5vw;
+    font-size: 50px;
     animation: text 3s 1;
 }
 
 .my_title {
-    font-size: 6vw;
+    font-size: 40px;
     margin-bottom: 4vw;
 }
 
@@ -232,7 +234,7 @@ ul.topnav {
     list-style: none;
     display: table;
     text-align: center;
-    font-size: 5.5vw;
+    font-size: 40px;
 }
 .topnav>li {
     display: table-cell;
@@ -270,8 +272,8 @@ and (min-device-width: 1200px)
 and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1) {
     /* For desktop: */
-    * {
-        font-size: 1.25rem;
+    body {
+        font-size: 16px;
     }
 
     header {
@@ -281,17 +283,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .my_name {
         text-transform: uppercase;
         letter-spacing: .5vw;
-        font-size: 4vw;
+        font-size: 50px;
         animation: text 3s 1;
     }
 
     .my_title {
-        font-size: 3vw;
+        font-size: 40px;
         margin-bottom: 2vw;
     }
 
     ul.topnav {
-        font-size: 3vw;
+        font-size: 30px;
     }
 
     .topnav>li {
@@ -299,7 +301,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .btn-rounded-black{
-        font-size: 2vw;
+        font-size: 30px;
         padding:.5vw 1vw;
         margin: 1vh;
         border-radius:30px;
