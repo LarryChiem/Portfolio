@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 a {
@@ -265,6 +265,9 @@ ul.topnav {
 }
 /*END OF https://codepen.io/jstn/pen/zuDst*/
 
+.footer {
+    margin: 0 20px 20px;
+}
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen
@@ -273,18 +276,25 @@ and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1) {
     /* For desktop: */
     body {
-        /* font-size: 16px; */
+        font-size: 20px;
     }
-
+    .btn-rounded-black{
+        font-size: 20px
+    }
     header {
         padding: 1vw 0 0 0;
     }
-
     .my_name {
-        text-transform: uppercase;
-        letter-spacing: .5vw;
-        /* font-size: 50px; */
+        font-size: 40px;
         animation: text 3s 1;
+    }
+    
+    .my_title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    ul.topnav {
+        font-size: 24px;
     }
 
     .topnav>li {
